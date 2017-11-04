@@ -1,0 +1,19 @@
+{
+  "name": "new-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindseymaratta/portfolio-2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindseymaratta/portfolio-2017/issues"
+  },
+  "homepage": "https://github.com/lindseymaratta/portfolio-2017#readme",
+  "dependencies": {
+    "bf-solid": "^2.9.9"
+  }
+}

@@ -18,4 +18,5 @@ github_username:  lindseymaratta
 # Build settings
 markdown: kramdown
 permalink: /:title
+exclude: ['node_modules']
 # pretty
