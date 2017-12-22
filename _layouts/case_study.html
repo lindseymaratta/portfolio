@@ -2,25 +2,29 @@
 layout: default
 ---
 
-<article class="post ">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }} </h1>
-  </header>
-  <div class="post-content col md-col-8">
-    {{ content }}
-  </div>
-  <div class="sidebar col md-col-4">
-  	<div class="xs-mb2">
-  		<span class="bold xs-block">Role:</span> {{ page.role }}
-  	</div>
-  	<div class="xs-mb2">
-  		<span class="bold xs-block">Timeline:</span> {{ page.timeline }}
-  	</div>
-  	<div class="xs-mb2">
-  		<span class="bold xs-block">Teammates:</span> {{ page.team }}
-  	</div>
-  </div>
-
+<article class="post">
+  	<header class="post-header">
+    	<h1 class="post-title">{{ page.title }} </h1>
+  	</header>
+  	<div class="clearfix">
+	  <div class="col md-col-9">
+	    {{ content }}
+	  </div>
+	  <!-- sidebar @todo make this stick on scroll--> 
+	  <div class="col md-col-3 md-pl2">
+  		<span class="bold caps xs-text-5 xs-mb1">Organization:</span> 
+  		<p class="xs-mb3">{{ page.organization }}</p>
+  		<span class="bold caps xs-text-5 xs-mb1">Role:</span>
+  		<p class="xs-mb3">{{ page.role }}</p>
+  		{% if page.timeline != "" %}
+  		<span class="bold caps xs-text-5 xs-mb1">Timeline:</span> 
+  		<p class="xs-mb3">{{ page.timeline }}</p>
+  		{% endif %}
+  		<span class="bold caps xs-text-5 xs-mb1">Teammates:</span>
+  		<p class="xs-mb3">{{ page.team }}</p>
+	  	</div>
+	  </div>
+	</div>
 </article>
  
 
