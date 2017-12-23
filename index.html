@@ -2,22 +2,146 @@
 layout: default
 ---
 
-<div class="home">
+<h1 class="post-title xs-mb2">Hi, I'm Lindsey.</h1>
+<p class="xs-mb4">I’m a product designer currently crafting BuzzFeed’s consumer-facing web experience, and previously the CMS that powers it. My work is informed by data and inspired by people. By night, I’m an avid salsa dancer, traveler, and musician.🤓💃✈️🎸</p>
 
-  <h1 class="page-heading">Posts</h1>
+<h2 class="xs-text-1 xs-mb2">Work</h2>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<!-- project #1 preview -->
+<div class="clearfix xs-mb2">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <!-- project #1 asset container-->
+  <div class="col md-col-8">
+    <img src="../img/bf-shows-final.png">
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <!-- project #1 description container-->
+  <div class="col md-col-4 xs-py1 md-pl2">
+    <h3 class="xs-text-3 xs-mb05">
+      <a href="/bf-shows">Unsolved</a>
+    </h3>
+    <span class="xs-block bold caps xs-text-5 xs-mb1">
+    <!-- this should use a liquid variable -->
+    UX/UI Design, Research
+    </span>
+  </div>
 
 </div>
+
+<!-- project #2 preview -->
+<div class="clearfix xs-mb2">
+
+  <!-- project #2 description container-->
+  <div class="col md-col-4 md-text-right xs-py1 md-pr2">
+    <h3 class="xs-text-3 md-text-right xs-mb05">
+      <a href="/bf-quizzes">Quizzes</a>
+    </h3>
+    <span class="xs-block bold caps xs-text-5 xs-mb1">
+    <!-- this should use a liquid variable -->
+    UX/UI Design, Research
+    </span>
+  </div>
+
+  <!-- project #2 asset container-->
+  <div class="col md-col-8">
+  <img src="../img/bf-quiz-final.png">
+  </div>
+
+
+</div>
+
+<!-- project #3 preview -->`
+<div class="clearfix xs-mb2">
+
+  <!-- project #3 asset container-->
+  <div class="col md-col-8">
+  <img src="../img/bf-news-final.png">
+  </div>
+
+  <!-- project #3 description container-->
+  <div class="col md-col-4 xs-py1 md-pl2">
+    <h3 class="xs-text-3 xs-mb05">
+      <a href="/bf-news">News + Investigations</a>
+    </h3>
+    <span class="xs-block bold caps xs-text-5 xs-mb1">
+    <!-- @TODO this should use a liquid variable, can use liquid lists with for loop need to b DRY-->
+    UX/UI Design, Research
+    </span>
+  </div>
+</div>
+
+<h2 class="xs-text-1 xs-mb2">Experience</h2>
+
+
+<!-- Employment -->
+<div class="xs-mb4">
+  <h3 class="bold caps xs-text-5 xs-mb1">
+Employment
+  </h3>
+  <p>
+    <a href="">View resume</a> for more detailed employment.
+  </p>
+</div>
+
+<!-- Tools -->
+<div class="xs-mb4">
+  <h3 class="bold caps xs-text-5 xs-mb1">
+Tools
+  </h3>
+  <ul class="list-unstyled">
+    <li>👾 HTML, CSS, SCSS, Javascript, Git</li>
+    <li>🎨 Sketch, Marvel, Framer, Adobe Suite</li>
+    <li>📊 Looker, Google Analytics, Mode, User Research</li>
+  </ul>
+</div>
+
+<!-- Speaking -->
+<div class="xs-mb4">
+<h3 class="bold caps xs-text-5 xs-mb1">
+Speaking
+</h3>
+<ul class=" list-unstyled">
+  
+   <li class="xs-mb2">
+     <a href="#" class="xs-block">
+      Lessons In Design From 40,000 Feet
+    </a>
+    <p>Google XXUX – July 2017, New York City
+    </p>
+  </li>
+
+  <li class="xs-mb2">
+    <a href="#" class="xs-block">
+    Remote Success
+    </a>
+    <p>Women In Tech Summit – April 2017, Philadelphia
+    </p>
+  </li>
+
+  <li class="xs-mb2">
+    <a href="#" class="xs-block">
+      Impacting Content Through Tools Design
+    </a>
+    <p>Digital Product Design Meetup – January 2017, New York City
+    </p>
+  </li>
+
+  <li class="xs-mb2">
+    <a href="#" class="xs-block">
+      Users, Design, and Tools
+    </a>
+    <p>Women Who Code – March 2016, New York City
+    </p>
+  </li>
+
+</ul>
+
+<h3 class="bold caps xs-text-5 xs-mb1">
+Writing
+</h3>
+<ul class="list-unstyled">
+  <li>TK</li>
+</ul>
+
+
+
