@@ -16,6 +16,10 @@ layout: default
   		<p class="xs-mb3">{{ page.organization }}</p>
   		<span class="bold caps xs-text-5 xs-mb1">Role</span>
   		<p class="xs-mb3">{{ page.role }}</p>
+      {% if page.live != "" %}
+      <span class="bold caps xs-text-5 xs-mb1">See it live</span> 
+      <p class="xs-mb3">{{ page.live }}</p>
+      {% endif %}
   		{% if page.timeline != "" %}
   		<span class="bold caps xs-text-5 xs-mb1">Timeline</span> 
   		<p class="xs-mb3">{{ page.timeline }}</p>
