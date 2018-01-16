@@ -35,6 +35,9 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        &:hover {
+                border-bottom: 2px $text-color solid;
+            }
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -251,7 +254,9 @@
      }
 
 }
-
+.active {
+    border-bottom: 2px $text-color solid;
+}
 
 .sticky{
     position: sticky;
