@@ -25,8 +25,10 @@ layout: default
   		<span class="bold caps xs-text-5 xs-mb1">Timeline</span> 
   		<p class="xs-mb3">{{ page.timeline }}</p>
   		{% endif %}
+      {% if page.timeline != "" %}
   		<span class="bold caps xs-text-5 xs-mb1">Teammates</span>
   		<p class="xs-mb3">{{ page.team }}</p>
+      {% endif %}
 	  	</div>
 	  </div>
 	</div>
