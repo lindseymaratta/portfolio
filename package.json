@@ -14,6 +14,6 @@
   },
   "homepage": "https://github.com/lindseymaratta/portfolio-2017#readme",
   "dependencies": {
-    "bf-solid": "^2.9.9"
+    "bf-solid": "^2.10.6"
   }
 }
