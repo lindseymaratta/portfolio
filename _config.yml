@@ -9,7 +9,7 @@
 title: Lindsey Maratta
 email: lindsey.maratta@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Product designer @buzzfeed by day, salsera by night.
+  Product designer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: lindseymaratta
@@ -18,5 +18,4 @@ github_username:  lindseymaratta
 # Build settings
 markdown: kramdown
 permalink: /:title
-exclude: ['node_modules']
 # pretty
