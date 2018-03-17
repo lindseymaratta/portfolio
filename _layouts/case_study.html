@@ -8,26 +8,22 @@ layout: default
     	<h1 class="post-title xs-mb4">{{ page.title }} </h1>
   	</header>
   	<div class="clearfix">
-	  <div class="col md-col-9">
+	  <div class="col md-col-8">
 	    {{ content }}
 	  </div>
 	  <!-- sidebar @todo make this stick on scroll--> 
-	  <div class="sidebar sticky col md-col-3 md-pl2">
+	  <div class="sidebar sticky col md-col-3 md-pl4">
   		<h3 class="xs-mb1">Organization</h3> 
   		<p class="xs-mb3">{{ page.organization }}</p>
   		<h3 class="xs-mb1">Role</h3>
   		<p class="xs-mb3">{{ page.role }}</p>
-      {% if page.live != "" %}
-      <h3 class="xs-mb1">See it live</h3> 
-      <p class="xs-mb3">{{ page.live }}</p>
-      {% endif %}
   		{% if page.timeline != "" %}
   		<h3 class="xs-mb1">Timeline</h3> 
   		<p class="xs-mb3">{{ page.timeline }}</p>
   		{% endif %}
-      {% if page.timeline != "" %}
-  		<h3 class="xs-mb1">Teammates</h3>
-  		<p class="xs-mb3">{{ page.team }}</p>
+      {% if page.live != "" %}
+      <h3 class="xs-mb1">See it live</h3> 
+      <p class="xs-mb3">{{ page.live }}</p>
       {% endif %}
 	  	</div>
 	  </div>
