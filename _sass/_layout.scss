@@ -54,11 +54,7 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
         text-align: right;
 
         .menu-icon {
@@ -91,6 +87,7 @@
         }
 
         .page-link {
+            margin-top: 11px;
             display: block;
             padding: 5px 10px;
 
@@ -294,6 +291,7 @@ h3 {
     //add breakpoint or flex box so its 100 at small screens
     color: $brand-color;
     background-color: #ffffff;
+    border: 1px solid $active-color;
     img {
     max-width: 60%;
     // filter: grayscale(0%);
