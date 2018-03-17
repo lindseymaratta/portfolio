@@ -291,7 +291,25 @@ h3 {
 }
 
 .project-asset {
-    max-width: 32rem;
+    //add breakpoint or flex box so its 100 at small screens
+    color: $brand-color;
+    background-color: #ffffff;
+    img {
+    max-width: 60%;
+    // filter: grayscale(0%);
+    // transition: filter .25s;
+}
+    &:hover{
+        img{
+    // filter: grayscale(100%);
+    // transition: filter .25s
+    }
+    h2{
+        color: $brand-color;
+    }
+    background-color: lighten($active-color, 20%);
+    transition: background-color .25s;
+}
 }
 
 .link--inline {
@@ -304,14 +322,6 @@ h3 {
         color: $text-color;
         background-color: $active-color;
         transition: background-color .25s;
-    }
-}
-.link--project {
-    color: $text-color;
-    transition: color .25s;
-    &:hover {
-        color: lighten($text-color, 30%);
-        transition: color .25s;
     }
 }
 
