@@ -305,7 +305,7 @@ h3 {
     h2{
         color: $brand-color;
     }
-    background-color: lighten($active-color, 20%);
+    background-color: lighten($active-color, 10%);
     transition: background-color .25s;
 }
 }
