@@ -1,27 +1,20 @@
-<footer class="site-footer">
+<footer class="site-footer fill-gray-darker">
 
   <div class="wrapper">
-    <div class="footer-col-wrapper">
-        <ul class="social-media-list">
-          <!-- if it exists, display github icon linked to github user page -->
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
+    <div class="footer-col-wrapper xs-text-center">
+        <ul class="xs-text-1 xs-p2">
+          <li class="xs-inline-block xs-p1">
+            <a href="https://twitter.com/lindseymaratta" class="link-white"><span class="fab fa-twitter"></span></a>
           </li>
-          {% endif %}
-          
-          <!-- if it exists, icon linked to twitter -->
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+          <li class="xs-inline-block xs-p1">
+            <a href="https://www.instagram.com/lmaratta" class="link-white"><span class="fab fa-instagram"></span></a>
           </li>
-          {% endif %}
-
-          <!-- icon linked to email -->
-          <!-- <li>
-            {% include icon-email.html %}
-          </li> -->
-          
+          <li class="xs-inline-block xs-p1">
+            <a href="https://github.com/lindseymaratta" class="link-white"><span class="fab fa-github-alt"></span></a>
+          </li>
+          <li class="xs-inline-block xs-p1">
+            <a href="mailto:lindsey.maratta@gmail.com" class="link-white"><span class="far fa-envelope"></span></a>
+          </li>
         </ul>
     </div>
   </div>

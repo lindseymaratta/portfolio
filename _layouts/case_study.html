@@ -4,8 +4,8 @@ layout: default
 
 <article class="post">
   	<header class="post-header">
-      <a href="{{ site.baseurl }}/" class="xs-inline-block xs-mb2">← Back</a>
-    	<h1 class="post-title">{{ page.title }} </h1>
+      <a href="{{ site.baseurl }}/" class="xs-inline-block xs-mb3 link--inline">← Back</a>
+    	<h1 class="post-title xs-mb4">{{ page.title }} </h1>
   	</header>
   	<div class="clearfix">
 	  <div class="col md-col-9">
@@ -13,20 +13,20 @@ layout: default
 	  </div>
 	  <!-- sidebar @todo make this stick on scroll--> 
 	  <div class="sidebar sticky col md-col-3 md-pl2">
-  		<span class="bold caps xs-text-5 xs-mb1">Organization</span> 
+  		<h3 class="xs-mb1">Organization</h3> 
   		<p class="xs-mb3">{{ page.organization }}</p>
-  		<span class="bold caps xs-text-5 xs-mb1">Role</span>
+  		<h3 class="xs-mb1">Role</h3>
   		<p class="xs-mb3">{{ page.role }}</p>
       {% if page.live != "" %}
-      <span class="bold caps xs-text-5 xs-mb1">See it live</span> 
+      <h3 class="xs-mb1">See it live</h3> 
       <p class="xs-mb3">{{ page.live }}</p>
       {% endif %}
   		{% if page.timeline != "" %}
-  		<span class="bold caps xs-text-5 xs-mb1">Timeline</span> 
+  		<h3 class="xs-mb1">Timeline</h3> 
   		<p class="xs-mb3">{{ page.timeline }}</p>
   		{% endif %}
       {% if page.timeline != "" %}
-  		<span class="bold caps xs-text-5 xs-mb1">Teammates</span>
+  		<h3 class="xs-mb1">Teammates</h3>
   		<p class="xs-mb3">{{ page.team }}</p>
       {% endif %}
 	  	</div>

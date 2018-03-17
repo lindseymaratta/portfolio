@@ -7,10 +7,14 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
+<link href="https://fonts.googleapis.com/css?family=Rubik|Fjalla+One" rel="stylesheet">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="{{ '/base.js' | prepend: site.baseurl }}"></script>
+
+<!-- font awesome -->
+ <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
 </head>
