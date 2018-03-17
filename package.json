@@ -5,14 +5,14 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lindseymaratta/portfolio-2017.git"
+    "url": "git+https://github.com/lindseymaratta/portfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lindseymaratta/portfolio-2017/issues"
+    "url": "https://github.com/lindseymaratta/portfolio/issues"
   },
-  "homepage": "https://github.com/lindseymaratta/portfolio-2017#readme",
+  "homepage": "https://github.com/lindseymaratta/portfolio#readme",
   "dependencies": {
     "bf-solid": "^2.10.6"
   }
