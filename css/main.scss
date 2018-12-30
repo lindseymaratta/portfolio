@@ -10,21 +10,21 @@
 // $display-font-family: 'Fjalla One', 'Helvetica', sans-serif;
 $base-font-family: 'Roboto', 'Helvetica', sans-serif;
 $display-font-family: 'Roboto', 'Helvetica', sans-serif;
-$base-font-size:   18px;
+$base-font-size:   16px;
 $base-font-weight: 300;
-$display-font-weight: 700;
+$display-font-weight: 900;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     18px;
+$spacing-unit:     16px;
 
 $text-color:       #222;
-$background-color: #fdfdfd;
+$background-color: #fff;
 $brand-color:      #222;
-$active-color:	   #FFEE5C;
+$active-color:	   #FFE58A;
 
 $grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
+$grey-color-light: #F3F3F3;
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area

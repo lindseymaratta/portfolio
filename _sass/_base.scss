@@ -23,6 +23,7 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    -webkit-font-smoothing: antialiased;
     font-size: 18px !important;
 }
 
@@ -161,10 +162,16 @@ pre {
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} ));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        padding-right: $spacing-unit;
+        padding-left: $spacing-unit;
+    }
+    @include media-query($on-palm) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} ));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit;
+        padding-left: $spacing-unit;
     }
 }
 
